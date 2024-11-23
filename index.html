@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex container mx-auto text-white sticky top-0">
+        <!--Left side Bara-->
+        <div class="bg-black   w-[12%] md:w-[60%]  sm:w-[15%] sticky top-0">
+            <div class="logo flex justify-center">
+                <img  class="w-10 h-10  object-contain  rounded-full" 
+                src="https://imgs.search.brave.com/1DWiIBFNPbOKsUe7RpBYILX0-lq6qVcJzrLeyc3ZRWA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L2VU/dEZ1VmVLVHdxVEQ0/MlBZTUxXdUEtMzIw/LTgwLmpwZw">
+           </div>
+           <!--this div for Icon Menu -->
+           <div class="sidebara flex justify-center  items-start  p-3">
+            
+            <ul class="flex flex-col  mt-2 font-bold justify-start items-center   md:p-4 w-1/2 gap-4 ">
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-house"></i> <span class="hidden md:block">Home</span> </button> </li> 
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-magnifying-glass"></i> <span class="hidden md:block  ">Explore</span> </button> </li> 
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-bell"></i> <span class="hidden md:block">Notification</span> </button> </li> 
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-inbox"></i> <span class="hidden md:block ">Grok</span></button> </li> 
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-users"></i><span class="hidden md:block">Communities</span></button> </li> 
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-crown"></i> <span class="hidden md:block">Premium</span></button> </li> 
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-bolt"></i> <span class="hidden md:block">Verified Org</span></button> </li> 
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-list"></i></i> <span class="hidden md:block">Lists</span> </button></li>
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-bookmark"></i> <span class="hidden md:block">Bookmarks</span> </button></li>
+                <li class="hover:bg-gray-800 rounded-md p-2"> <button class="flex items-center space-x-2"> <i class="fa-solid fa-ellipsis-vertical"></i> <span class="hidden md:block">More</span> </button></li>
+                <button class="  px-4 space-x-1 rounded-full bg-blue-500 text-white text-lg font-bold hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 items-center">
+                  <span class="block sm:hidden">
+                    <i class="fa-solid fa-pen"></i>
+                  </span>
+                  <span class="  hidden sm:block  md:block">Post</span>
+                </button>
+            </ul>
+        </div>
+  
+    </div>
+        <!-- This Div is show the Content-->
+        <div class="bg-black w-full  border-l-2 border-r-2 md:w-full ">
+         <div class="top flex p-2   bg-gray-800 ">
+         <div class=" for You left py-1 font-bold flex justify-center  border-r-2 w-1/2">For You</div>
+            <div class=" folowing right flex py-1   font-bold justify-center w-1/2">Following </div>
+           <div class="setting  flex justify-end  m-2 ">
+            <i class="fa-solid fa-gear"></i>
+           </div>
+          </div>
+          <div class="h-[1px] w-full bg-slate-500"></div>
+          <!--for the  post section -->
+          <div class="flex m-2 ">
+             <div class="flex  flex-col m-2 ">
+              <img  class=" object-contain rounded-full h-8 w-8"
+              src="https://pbs.twimg.com/profile_images/1853123213150261248/ElAB-IAx_400x400.jpg" alt="proflie pic">
+             </div>
+            <input   class="w-full  mx-2 my-3 h-5 px-2 text-white bg-black outline-none"  placeholder="what happening"type="text">
+          </div>
+          <div class="icons flex justify-between mt-4 ">
+            <ul class="flex flex-row gap-3 ml-5 text-blue-400">
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-image hover:bg-gray-700 hover:rounded-full p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"> <i class="fa-solid fa-bars-progress hover:bg-gray-700 hover:rounded-full p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-face-smile hover:bg-gray-700 hover:rounded-full p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-calendar hover:bg-gray-900 hover:rounded-full p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-location-pin hover:bg-gray-700 hover:rounded-full p-2"></i></li>
+            </ul>
+            <!--Button-->
+              <button class=" mr-3 px-3 flex space-x-2 rounded-full bg-blue-500 text-white text-lg font-bold hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">Post</button>
+          </div>
+          <div class="h-[1px] mt-3 w-full   bg-slate-500"></div>
+          <!--div for show post of the people -->
+          <div class="post flex flex-col m-2 p-2  ">
+            <div class="flex flex-row items-center">
+              <img class="object-contain rounded-full h-8 cursor-pointer"
+                   src="https://pbs.twimg.com/profile_images/1853123213150261248/ElAB-IAx_400x400.jpg" alt="profile picture">
+              <div class="ml-2 flex flex-col">
+                <div class="flex items-center">
+                  <strong>neyuj_11</strong>
+                  <div class="ml-2 mt-1 flex space-x-1">
+                    <p class="text-gray-400 font-serif text-[12px]">@Ujjwal_2061</p>
+                    <p class="text-gray-400 font-mono text-[12px]">· 1h</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ml-auto">
+                <i class="fa-solid fa-ellipsis cursor-pointer hover:bg-gray-700 hover:rounded-full p-2"></i>
+              </div>
+            </div>
+            <div class="mt-2">
+              <p class="p-2 m-2 text-sm text-white font-serif">Motivation and setbacks are both part of the journey to unlocking your limitless potential. Embrace them as opportunities to challenge and push yourself beyond your limits.</p>
+            </div>
+            <ul class="flex flex-row gap-3 ml-5 text-blue-400 mt-2 justify-between">
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-comment hover:bg-gray-700 hover:rounded-full  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-retweet hover:bg-gray-700 hover:rounded-full  hover:text-green-400  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-heart hover:bg-gray-700 hover:rounded-full  hover:text-red-500  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-chart-simple  hover:bg-gray-600 hover:rounded-full p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-arrow-up-from-bracket hover:bg-gray-700 hover:rounded-full p-2"></i> </li>
+            </ul>
+          </div>
+
+          <div class="h-[1px] w-full bg-slate-500"></div>
+
+          <!-- For video content-->
+          <div class="post flex flex-col m-2 p-2  ">
+            <div class="flex flex-row items-center">
+              <img class="object-contain rounded-full h-8 cursor-pointer"
+                   src="https://pbs.twimg.com/profile_images/1853123213150261248/ElAB-IAx_400x400.jpg" alt="profile picture">
+              <div class="ml-2 flex flex-col">
+                <div class="flex items-center">
+                  <strong>neyuj_11</strong>
+                  <div class="ml-2 mt-1 flex space-x-1">
+                    <p class="text-gray-400 font-serif text-[12px]">@Ujjwal_2061</p>
+                    <p class="text-gray-400 font-mono text-[12px]">· 1h</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ml-auto">
+                <i class="fa-solid fa-ellipsis cursor-pointer hover:bg-gray-700 hover:rounded-full p-2"></i>
+              </div>
+            </div>
+            <!-- Video section -->
+            <div class="mt-2">
+              <video class=" rounded-md w-full h-full" controls>
+                <source src="videoplayback.mp4" type="video/mp4">
+              </video>
+            </div>
+            <ul class="flex flex-row gap-3 ml-5 text-blue-400 mt-2 justify-between">
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-comment hover:bg-gray-700 hover:rounded-full  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-retweet hover:bg-gray-700 hover:rounded-full  hover:text-green-400  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-heart hover:bg-gray-700 hover:rounded-full  hover:text-red-500  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-chart-simple  hover:bg-gray-600 hover:rounded-full p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-arrow-up-from-bracket hover:bg-gray-700 hover:rounded-full p-2"></i> </li>
+            </ul>
+            
+          </div>
+          <div class="h-[1px] w-full bg-slate-500"></div>
+          <!--Start of the last post-->
+          <div class="post flex flex-col m-2 p-2  ">
+            <div class="flex flex-row items-center">
+              <img class="object-contain rounded-full h-8 cursor-pointer"
+                   src="https://pbs.twimg.com/profile_images/1853123213150261248/ElAB-IAx_400x400.jpg" alt="profile picture">
+              <div class="ml-2 flex flex-col">
+                <div class="flex items-center">
+                  <strong>neyuj_11</strong>
+                  <div class="ml-2 mt-1 flex space-x-1">
+                    <p class="text-gray-400 font-serif text-[12px]">@Ujjwal_2061</p>
+                    <p class="text-gray-400 font-mono text-[12px]">· 1h</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ml-auto">
+                <i class="fa-solid fa-ellipsis cursor-pointer hover:bg-gray-700 hover:rounded-full p-2"></i>
+              </div>
+            </div>
+            <div class="mt-2">
+              <p class="p-2 m-2 text-sm text-white font-serif">Motivation and setbacks are both part of the journey to unlocking your limitless potential. Embrace them as opportunities to challenge and push yourself beyond your limits.</p>
+            </div>
+            <ul class="flex flex-row gap-3 ml-5 text-blue-400 mt-2 justify-between">
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-comment hover:bg-gray-700 hover:rounded-full  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-retweet hover:bg-gray-700 hover:rounded-full  hover:text-green-400  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-heart hover:bg-gray-700 hover:rounded-full  hover:text-red-500  p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-chart-simple  hover:bg-gray-600 hover:rounded-full p-2"></i></li>
+              <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-arrow-up-from-bracket hover:bg-gray-700 hover:rounded-full p-2"></i> </li>
+            </ul>
+          </div>
+           <div class="h-[1px] w-full bg-slate-500"></div>
+         <!--End of the post second section -->
+         <div class="post flex flex-col m-2 p-2  ">
+          <div class="flex flex-row items-center">
+            <img class="object-contain rounded-full h-8 cursor-pointer"
+                 src="https://pbs.twimg.com/profile_images/1853123213150261248/ElAB-IAx_400x400.jpg" alt="profile picture">
+            <div class="ml-2 flex flex-col">
+              <div class="flex items-center">
+                <strong>neyuj_11</strong>
+                <div class="ml-2 mt-1 flex space-x-1">
+                  <p class="text-gray-400 font-serif text-[12px]">@Ujjwal_2061</p>
+                  <p class="text-gray-400 font-mono text-[12px]">· 1h</p>
+                </div>
+              </div>
+            </div>
+            <div class="ml-auto">
+              <i class="fa-solid fa-ellipsis cursor-pointer hover:bg-gray-700 hover:rounded-full p-2"></i>
+            </div>
+          </div>
+          <div class="mt-2">
+            <p class="p-2 m-2 text-sm text-white font-serif">Motivation and setbacks are both part of the journey to unlocking your limitless potential. Embrace them as opportunities to challenge and push yourself beyond your limits.</p>
+          </div>
+          <ul class="flex flex-row gap-3 ml-5 text-blue-400 mt-2 justify-between">
+            <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-comment hover:bg-gray-700 hover:rounded-full  p-2"></i></li>
+            <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-retweet hover:bg-gray-700 hover:rounded-full  hover:text-green-400  p-2"></i></li>
+            <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-heart hover:bg-gray-700 hover:rounded-full  hover:text-red-500  p-2"></i></li>
+            <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-chart-simple  hover:bg-gray-600 hover:rounded-full p-2"></i></li>
+            <li class="flex cursor-pointer space-x-2"><i class="fa-solid fa-arrow-up-from-bracket hover:bg-gray-700 hover:rounded-full p-2"></i> </li>
+          </ul>
+        </div>
+         <div class="h-[1px] w-full bg-slate-500"></div>
+       </div>
+       
+       <!-- End of the Middle div -->
+        <div class="bg-black  w-full  hidden md:block ">
+              <!--Search Bara-->
+              <div class=" serach m-2  lg:flex ml-8">
+                <input class="rounded-full px-4 outline-none py-2 w-1/2 bg-gray-900 text-white"
+                 type="text"
+                placeholder="Serch">
+              </div>
+              <!--For the Trending Section -->
+              <div class="m-3 px-2 py-3 w-2/3 rounded-md bg-gray-900 lg:w-2/3 ml-3" >
+                <h2 class="font-bold m-1  text-xl lg:flex  ml-7">Subscribe to Premium</h2>
+                <p class="text-sm m-2 tracking-tight font-serif lg:flex  ml-7 ">Subscribe to unlock new features and  if <br>
+                 eligible, receive a share of revenue.</p>
+                 <button class=" lg:flex ml-7 px-3 py-1 m-2  rounded-full bg-blue-500 text-white text-lg font-bold hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 ">Subrscribe</button>
+              </div>
+              <!--Div for the Whta is Trending Section-->
+              <div>
+                <div class="m-3 px-2 py-3 w-1/2 rounded-md bg-gray-900 lg:w-[50%]  ">
+                    <h2 class="font-bold m-1  text-xl">What’s happening</h2>  
+                    <div class="treding m-3 p-1">
+                        <h4 class=" text-gray-600 text-sm">Treding in Nepal </h4>
+                        <a href="#" class=" text-white text-sm font-bold font-mono hover:border-b-2 ">#NPL</a>
+                        <p class="text-gray-600 text-sm">240k Post</p>
+                    </div>    
+                    <div class="treding m-3 p-1">
+                        <h4 class=" text-gray-600 text-sm">Treding in India</h4>
+                        <a href="#" class=" text-white text-sm font-bold font-mono">#India</a>
+                        <p class="text-gray-600 text-sm">300kPost</p>
+                    </div>    
+        </div>
+        <!--This div for the Follow List-->
+        <div class="m-3 px-2 py-3 w-1/2 rounded-md justify-start sm:w-1/2   md:w-[90%]   bg-gray-900">
+            <span class="font-bold m-1 text-xl">who to follow </span>
+            <div class="flex items-center   m-2">
+                <img class="object-contain rounded-full h-8 w-8"
+                     src="https://pbs.twimg.com/profile_images/1853123213150261248/ElAB-IAx_400x400.jpg" alt="profile picture">
+                <div class="m-1">
+                  <strong>neyuj_11</strong>
+                  <p class="text-gray-700 font-serif text-sm">@Ujjwal_2061</p>
+                </div>
+                <button type="button" class="  ml-auto px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300">Follow</button>
+              </div>
+          <!--Second list -->
+              <div class="flex items-center m-2  ">
+                <img class="object-contain rounded-full h-8 w-8"
+                     src="https://pbs.twimg.com/profile_images/1484777657367928835/EKb7ORxO_400x400.jpg" alt="profile picture">
+                <div class="m-1">
+                  <strong>Ashwani kumar</strong>
+                  <p class="text-gray-700 font-serif text-sm">@Ashwani_00_01</p>
+                </div>
+                <button type="button" class="  ml-auto px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300">Follow</button>
+              </div>
+              <!--third-->
+              <div class="flex items-center m-2 ">
+                <img class="object-contain rounded-full h-8 w-8"
+                     src="https://pbs.twimg.com/profile_images/1765052395204001792/a35Sx8S0_400x400.png" alt="profile picture">
+                <div class="m-1">
+                  <strong>KiranSpot</strong>
+                  <p class="text-gray-700 font-serif text-sm">@AbhayaGaih96508
+                </p>
+                </div>
+                <button type="button" class="   ml-auto px-3 py-2 text-xs font-medium text-center text-black bg-white rounded-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300">Follow</button>
+              </div>
+          </div>
+    </div>
+  </div>
+</body>
+</html>
